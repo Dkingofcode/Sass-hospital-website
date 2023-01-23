@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  -webkit-text-decoration: border-box;
+          text-decoration: border-box;
+}
+
+body {
+  background-color: #480caa;
+}
+
+.container {
+  width: 82%;
+  margin: 0 auto;
+}/*# sourceMappingURL=styles.css.map */
