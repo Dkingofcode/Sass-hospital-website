@@ -1,3 +1,11 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    color: $dark-color;
+    background: rgba($primary-color-variant, 0.4);
+}
+
+
 .container{
     width: $container-lg;
     margin: 0 auto;
@@ -26,7 +34,7 @@ section {
 
   & > p{
     text-align: center;
-    width: 45%;
+    width: 42%;
     margin: 0.6rem auto 2.5rem;
  }
 }
@@ -39,3 +47,27 @@ section {
     @include button($white-color, $primary-color);
 }
 
+/* --========================== MEDIA QUERIES (MEDIUM DEVICES) ========================== */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: $container-md;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        & > p{
+          width: 55%;  
+        }
+    }
+}
+
+
+/* ============================= MEDIA QUERIES (SMALL DEVICES) ======================= */
+@media screen and (max-width: 600px) {
+    section {
+        & > p{
+          width: $container-md;  
+        }
+    }
+}
