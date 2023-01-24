@@ -14,12 +14,23 @@
 
         &:hover {
             box-shadow: none;
-        }
+        
 
         .specialist__image::before{
             left: 0;
              border-radius: 1rem;   
         }
+
+        .specialist__socials {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .specialist__whatsapp{
+            opacity: 1;
+            visibility: visible;
+        }
+    }
 
         .specialist__image {
             height: 20rem;
@@ -79,4 +90,9 @@
         transition: all 500ms ease;
       }
    }   
+}
+
+/* ===================== MEDIA QUERIES (MEDIUM) ================ */
+@media screen and (max-width: 1024px){
+    
 }
