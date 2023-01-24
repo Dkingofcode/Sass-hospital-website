@@ -7,6 +7,12 @@ openNavBtn.addEventListener('click', () => {
     openNavBtn.style.display = 'none';
 })
 
+closeNavBtn.addEventListener("click", () => {
+    navItems.style.display = 'none';
+    openNavBtn.style.display = 'inline-block';
+    closeNavBtn.style.display = 'none';
+})
+
 
 
 
